@@ -1,20 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://ohbug.cn//post/java/basic/basicjava3.html</loc>
+    <lastmod>2023-02-02</lastmod>
+  </url>
+  <url>
+    <loc>https://ohbug.cn//post/datastructure/redblacktree-avl.html</loc>
+    <lastmod>2023-02-02</lastmod>
+  </url>
+  <url>
     <loc>https://ohbug.cn//post/java/basic/basicjava6.html</loc>
-    <lastmod>2023-02-01</lastmod>
+    <lastmod>2023-02-02</lastmod>
   </url>
   <url>
     <loc>https://ohbug.cn//post/java/basic/basicjava5.html</loc>
-    <lastmod>2023-01-30</lastmod>
+    <lastmod>2023-02-02</lastmod>
+  </url>
+  <url>
+    <loc>https://ohbug.cn//post/java/basic/basicjava4.html</loc>
+    <lastmod>2023-02-02</lastmod>
+  </url>
+  <url>
+    <loc>https://ohbug.cn//post/java/basic/basicjava1.html</loc>
+    <lastmod>2023-02-02</lastmod>
+  </url>
+  <url>
+    <loc>https://ohbug.cn//post/java/basic/basicjava2.html</loc>
+    <lastmod>2023-02-02</lastmod>
   </url>
   <url>
     <loc>https://ohbug.cn//post/mysql/mysqlmustknow.html</loc>
     <lastmod>2023-01-24</lastmod>
-  </url>
-  <url>
-    <loc>https://ohbug.cn//post/java/basic/basicjava4.html</loc>
-    <lastmod>2023-01-18</lastmod>
   </url>
   <url>
     <loc>https://ohbug.cn//post/talk/newstart2023.html</loc>
@@ -22,18 +38,6 @@
   </url>
   <url>
     <loc>https://ohbug.cn//post/spring/powernode-spring6-1.html</loc>
-    <lastmod>2023-01-16</lastmod>
-  </url>
-  <url>
-    <loc>https://ohbug.cn//post/java/basic/basicjava3.html</loc>
-    <lastmod>2023-01-16</lastmod>
-  </url>
-  <url>
-    <loc>https://ohbug.cn//post/java/basic/basicjava2.html</loc>
-    <lastmod>2023-01-16</lastmod>
-  </url>
-  <url>
-    <loc>https://ohbug.cn//post/java/basic/basicjava1.html</loc>
     <lastmod>2023-01-16</lastmod>
   </url>
 </urlset> 
