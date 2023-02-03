@@ -1,3 +1,4 @@
+https://ohbug.cn/post/redis/basic-redis1.html
 https://ohbug.cn/post/datastructure/redblacktree-avl.html
 https://ohbug.cn/post/java/basic/basicjava6.html
 https://ohbug.cn/post/java/basic/basicjava5.html
@@ -7,4 +8,3 @@ https://ohbug.cn/post/java/basic/basicjava3.html
 https://ohbug.cn/post/spring/powernode-spring6-1.html
 https://ohbug.cn/post/java/basic/basicjava2.html
 https://ohbug.cn/post/java/basic/basicjava1.html
-https://ohbug.cn/post/talk/newstart2023.html
