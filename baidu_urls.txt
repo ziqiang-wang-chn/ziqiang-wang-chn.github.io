@@ -1,4 +1,3 @@
-https://ohbug.cn/post/java/basic/basicjava8.html
 https://ohbug.cn/post/java/basic/basicjava7.html
 https://ohbug.cn/post/redis/basic-redis1.html
 https://ohbug.cn/post/datastructure/redblacktree-avl.html
@@ -7,4 +6,5 @@ https://ohbug.cn/post/java/basic/basicjava5.html
 https://ohbug.cn/post/java/basic/basicjava4.html
 https://ohbug.cn/post/mysql/mysqlmustknow.html
 https://ohbug.cn/post/java/basic/basicjava3.html
-https://ohbug.cn/post/spring/powernode-spring6-1.html
+https://ohbug.cn/post/spring/spring6-1.html
+https://ohbug.cn/post/java/basic/basicjava2.html

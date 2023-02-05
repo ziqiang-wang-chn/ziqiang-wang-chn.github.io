@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://ohbug.cn/post/java/basic/basicjava7.html</loc>
+    <loc>https://ohbug.cn/post/spring/spring6-1.html</loc>
     
     <lastmod>2023-02-05</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://ohbug.cn/post/java/basic/basicjava8.html</loc>
+    <loc>https://ohbug.cn/post/java/basic/basicjava7.html</loc>
     
     <lastmod>2023-02-05</lastmod>
     
@@ -32,15 +32,6 @@
     <loc>https://ohbug.cn/post/java/basic/basicjava6.html</loc>
     
     <lastmod>2023-02-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ohbug.cn/post/spring/powernode-spring6-1.html</loc>
-    
-    <lastmod>2023-02-02</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -163,6 +154,13 @@
   </url>
   
   <url>
+    <loc>https://ohbug.cn/tags/java/</loc>
+    <lastmod>2023-02-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://ohbug.cn/tags/redis/</loc>
     <lastmod>2023-02-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -171,13 +169,6 @@
   
   <url>
     <loc>https://ohbug.cn/tags/%E6%97%A5%E5%B8%B8%E5%94%A0%E5%8F%A8/</loc>
-    <lastmod>2023-02-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://ohbug.cn/tags/java/</loc>
     <lastmod>2023-02-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -214,6 +205,13 @@
   </url>
   
   <url>
+    <loc>https://ohbug.cn/categories/java%E5%9F%BA%E7%A1%80/</loc>
+    <lastmod>2023-02-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://ohbug.cn/categories/redis/</loc>
     <lastmod>2023-02-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -222,13 +220,6 @@
   
   <url>
     <loc>https://ohbug.cn/categories/%E6%97%A5%E5%B8%B8%E5%94%A0%E5%8F%A8/</loc>
-    <lastmod>2023-02-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://ohbug.cn/categories/java%E5%9F%BA%E7%A1%80/</loc>
     <lastmod>2023-02-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
