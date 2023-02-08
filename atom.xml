@@ -6,7 +6,7 @@
   <link href="https://ohbug.cn/atom.xml" rel="self"/>
   
   <link href="https://ohbug.cn/"/>
-  <updated>2023-02-05T08:53:03.460Z</updated>
+  <updated>2023-02-08T15:25:54.069Z</updated>
   <id>https://ohbug.cn/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>MySQL - 索引</title>
+    <link href="https://ohbug.cn/post/mysql/mysql1.html"/>
+    <id>https://ohbug.cn/post/mysql/mysql1.html</id>
+    <published>2023-02-08T14:58:37.000Z</published>
+    <updated>2023-02-08T15:25:54.069Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="常用索引模型"><a href="#常用索引模型" class="headerlink" title="常用索引模型"></a>常用索引模型</h1><ul><li>哈希表：既然涉及到了Hash，则最快的效率一定是直接可以根据Hash进行定位。但是难免会有冲突的时候，冲突的时候会链接成链表，此时若链表很长，且若链表内的信息都无序，若要查找一个特定的值，或查找一个区间内的值，则只能遍历，则查询效率也是很低的。所以<strong>哈希表这种结构适用于只有等值查询的场景</strong>。</li><li>有序数组：<strong>有序数组在等值查询和范围查询场景中的性能就都非常优秀</strong>，因为是有序的，所以查找一个值可以用二分查找，若再区间内查值，因为是有序的，则也可以使用二分查找，但是对于数据频繁插入的时期下，数组元素的移动是相当耗费时间的。所以<strong>有序数组索引只适用于静态存储引擎</strong>。</li><li>搜索树：最直接的就想到了二叉平衡查找树，但是若树深20，则每次查找一个值，都平均需要比较20次才会找到一个值，查询效率也不是很高，所以引入了多叉树，越多叉越能够减少比较次数。所以多叉树广泛应用到数据库中。</li></ul><h1 id="InnoDB的索引模型"><a href="#InnoDB的索引模型" class="headerlink" title="InnoDB的索引模型"></a>InnoDB的索引模型</h1><ul><li>InnoDB中使用了 B+ 树，每个索引在 InnoDB 中都对应一颗树。</li><li>B+树的叶子节点是page （页），一个页里面可以存多个行。页内部有个有序数组，二分法进行查找匹配行。</li><li>比如下面一张表</li></ul><pre class="line-numbers language-sql" data-language="sql"><code class="language-sql">create table T(id int primary key,k int not null,index (k))engine&#x3D;InnoDB;-- data: (100,1)、(200,2)、(300,3)、(500,5) 和 (600,6)</code></pre><ul><li>对应的结构为</li></ul><p><img src="/img/mysql/innodb-index.png" alt="picture 1">  </p><h2 id="基于主键索引和普通索引的查询区别"><a href="#基于主键索引和普通索引的查询区别" class="headerlink" title="基于主键索引和普通索引的查询区别"></a>基于主键索引和普通索引的查询区别</h2><ul><li><strong>主键索引</strong>只要搜索ID这个B+Tree即可拿到数据。</li><li><strong>普通索引</strong>先搜索索引拿到主键值，再到主键搜索ID索引树搜索一次(回表)。共查询两次。</li></ul><p><img src="/img/mysql/b+tree.png"></p><h2 id="索引维护"><a href="#索引维护" class="headerlink" title="索引维护"></a>索引维护</h2><ul><li>因为B+树的特性，如果索引是比较有序的，如数据库中得自增ID，则B+树每次插入一条新记录，都是追加操作，都不涉及到挪动其他记录，也不会触发叶子节点的分裂，这样效率是很高的。</li><li>若索引插入是比较无序的，比如某个业务的id作为索引，会造成数据的频繁挪动，甚至分裂出其他的分支，这个过程称为页分裂。页分裂操作还影响数据页的利用率。原本放在一个页的数据，现在分到两个页中，整体空间利用率降低大约 50%。</li><li><strong>综上</strong>，则插入的索引有序是十分有利的。<strong>自增主键往往是更合理的选择，且建议设置为bigint unsigned</strong>。</li><li>如果删除再新建主键索引，它会使得所有的二级索引都失效，并且会用ROWID来作主键索引，性能消耗比较大。删除再重建普通索引貌似影响不大，不过要注意在业务低谷期操作，避免影响业务。</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;常用索引模型&quot;&gt;&lt;a href=&quot;#常用索引模型&quot; class=&quot;headerlink&quot; title=&quot;常用索引模型&quot;&gt;&lt;/a&gt;常用索引模型&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;哈希表：既然涉及到了Hash，则最快的效率一定是直接可以根据Hash进行定位。但是难免会有冲突的</summary>
+      
+    
+    
+    
+    <category term="MySQL" scheme="https://ohbug.cn/categories/MySQL/"/>
+    
+    
+    <category term="MySQL" scheme="https://ohbug.cn/tags/MySQL/"/>
+    
+  </entry>
   
   <entry>
     <title>Java复习篇：I/O</title>
