@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://ohbug.cn/post/docker/docker2.html</loc>
+    <loc>https://ohbug.cn/post/docker/docker3.html</loc>
     
     <lastmod>2023-02-14</lastmod>
     
@@ -13,7 +13,16 @@
   <url>
     <loc>https://ohbug.cn/post/docker/docker1.html</loc>
     
-    <lastmod>2023-02-13</lastmod>
+    <lastmod>2023-02-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://ohbug.cn/post/docker/docker2.html</loc>
+    
+    <lastmod>2023-02-14</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -194,13 +203,6 @@
   </url>
   
   <url>
-    <loc>https://ohbug.cn/tags/redis/</loc>
-    <lastmod>2023-02-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://ohbug.cn/tags/MySQL/</loc>
     <lastmod>2023-02-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -209,6 +211,13 @@
   
   <url>
     <loc>https://ohbug.cn/tags/%E3%80%8AMySQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A%E3%80%8B/</loc>
+    <lastmod>2023-02-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://ohbug.cn/tags/redis/</loc>
     <lastmod>2023-02-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -259,13 +268,6 @@
   </url>
   
   <url>
-    <loc>https://ohbug.cn/categories/redis/</loc>
-    <lastmod>2023-02-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://ohbug.cn/categories/MySQL/</loc>
     <lastmod>2023-02-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -274,6 +276,13 @@
   
   <url>
     <loc>https://ohbug.cn/categories/MySQL%E5%9F%BA%E7%A1%80/</loc>
+    <lastmod>2023-02-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://ohbug.cn/categories/redis/</loc>
     <lastmod>2023-02-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
