@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://ohbug.cn//post/java/basic/basicjava9.html</loc>
+    <lastmod>2023-02-18</lastmod>
+  </url>
+  <url>
+    <loc>https://ohbug.cn//post/java/basic/basicjava7.html</loc>
+    <lastmod>2023-02-18</lastmod>
+  </url>
+  <url>
+    <loc>https://ohbug.cn//post/java/basic/basicjava8.html</loc>
+    <lastmod>2023-02-18</lastmod>
+  </url>
+  <url>
     <loc>https://ohbug.cn//post/mysql/mysql1.html</loc>
     <lastmod>2023-02-15</lastmod>
   </url>
@@ -35,10 +47,6 @@
   <url>
     <loc>https://ohbug.cn//post/spring/spring6-1.html</loc>
     <lastmod>2023-02-06</lastmod>
-  </url>
-  <url>
-    <loc>https://ohbug.cn//post/java/basic/basicjava7.html</loc>
-    <lastmod>2023-02-05</lastmod>
   </url>
   <url>
     <loc>https://ohbug.cn//post/redis/basic-redis1.html</loc>
