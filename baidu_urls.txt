@@ -1,3 +1,4 @@
+https://ohbug.cn/post/rocketmq/rocketmq2.html
 https://ohbug.cn/post/rocketmq/rocketmq1.html
 https://ohbug.cn/post/java/basic/basicjava9.html
 https://ohbug.cn/post/docker/docker4.html
@@ -7,4 +8,3 @@ https://ohbug.cn/post/mysql/mysql1.html
 https://ohbug.cn/post/spring/spring6-4.html
 https://ohbug.cn/post/docker/docker1.html
 https://ohbug.cn/post/spring/spring6-3.html
-https://ohbug.cn/post/spring/spring6-2.html
